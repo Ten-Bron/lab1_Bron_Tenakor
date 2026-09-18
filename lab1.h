@@ -1,4 +1,4 @@
-main (a,b) // methode principale
+/*main (a,b) // methode principale
 // verification saisie
 si b != a+-1:
     print(error)
@@ -14,6 +14,7 @@ while c >= a and d<=b{
         c+2
     print (c/d)
 }
+*/
 
 
 

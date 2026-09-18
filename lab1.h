@@ -14,5 +14,6 @@ while c >= a and d<=b{
         c+2
     print (c/d)
 }
+aaa
 
 

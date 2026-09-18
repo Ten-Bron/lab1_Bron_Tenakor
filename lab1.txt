@@ -1,0 +1,48 @@
+message de bienvenue
+demander a l'utilisateur d'introduire le nominateur puis le denominateur.
+si le nominateur ou le denominateur ne sont pas conformes:
+    message "erreur de saisie", puis on recommance la methode.
+sinon on continue la methode.
+imprimer dans la console la suite de Wallis.
+imprimer un message d'adieu.
+
+///////////////////////////////////////////
+message de bienvenue.
+demander a l'utilisateur d'introduire le nominateur puis le denominateur.
+verifier si la difference absolue entre le nominateur et le denominateur est egale a 1. et si le nominateur est pair, et le denominateur impair.
+    continuer si c'est le cas.
+si valide:
+    on tourne une boucle en partant du premier element connu de la suite jusqu'a atteindre l'element saisi par l'utilisateur.
+        calculer l'approximation de la suite de Wallis.
+        imprimer le resultat dans la console
+sinon:
+    affiche un message d'erreur.
+    on recommence le programme.
+imprimer un message d'adieux.
+fin du programme.
+
+///////////////////////////////////////////
+on demande a l'utilisateur de taper l'element supposé appartenant a la suite de Wallis
+si le denominateur est pair, et que le denominateur est impair et que la difference absolue des deux est egale a 1:
+    imprimer un message d'erreur de saisie "erreur de saisie".
+    recommencer le programme.
+
+tourner une iteration allant du premier element de la suite de Wallis a l'element saisi par l'utilisateur.
+    verifier si l'on doit continuer la boucle.
+    si oui:
+        verifier si l'element saisi est different de l'element a calculer.
+        si valide:
+            calculer l'approximation de Wallis.
+            imprimer le resultat dans la console.
+        sinon:
+            sortir de la boucle.
+    sinon:
+        affiche un message d'erreur de saisie.
+        recommencer la methode depuis le debut.
+imprimer un message d'adieu.
+
+
+
+
+
+
